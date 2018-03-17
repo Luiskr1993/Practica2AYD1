@@ -41,3 +41,15 @@
 
 **[201122864]: Revisado**
 **[201314808]: Revisado**
+
+*******OPERACION DE POTENCIA**********
+public static int potencia(int m, int n) {
+        if (n == 0) {
+            return 1;
+        }   
+        else {
+           return m * funcionp(m, n - 1);
+        }
+    }
+
+
