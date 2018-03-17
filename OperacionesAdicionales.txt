@@ -1,5 +1,5 @@
 ---------------------OPERACIONES ADICIONALES-------------------
-
+// merge iterativo
 *******OPERACIOM FACTORIAL ITERATIVO**********
 
  public static int FactorialI(int n) {
