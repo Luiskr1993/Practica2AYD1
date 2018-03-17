@@ -64,3 +64,6 @@ public static int potencia(int m, int n) {
       log("La raíz cuadrada de " + i + " es " + Math.sqrt(i));
    }
   }
+
+
+******[201122864]: Revisado ********
