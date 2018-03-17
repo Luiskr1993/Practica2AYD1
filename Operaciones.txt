@@ -2,12 +2,10 @@
 -------------------- ARCHIVO DE OPERACIONES ----------------------------
 //Listo para develop
 
+
 *******OPERACION DE SUMA**********
- public static String Suma(String a, String b) {
-        int a1 = Integer.parseInt(a, 2);
-        int b1 = Integer.parseInt(b, 2);
-        int c1 = a1 + b1;
-        String resultado = Integer.toString(c1, 2);
+ public static String Suma(int a, int b) {
+        int resultado = a1 + b1;
         return resultado;
     }
 
@@ -65,5 +63,4 @@ public static int potencia(int m, int n) {
    }
   }
 
-
-******[201122864]: Revisado ********
+MODULAR
