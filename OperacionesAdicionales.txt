@@ -1,4 +1,5 @@
 ---------------------OPERACIONES ADICIONALES-------------------
+
 // merge iterativo
 *******OPERACIOM FACTORIAL ITERATIVO**********
 
@@ -9,4 +10,15 @@
 	}
 	return resultado; 
     }
+
+
+
+******FUNCION FACTORIAL RECURSIVA********
+static int factorial(int numero){
+          if ( numero <= 1 ) {
+              return 1;
+          } else {
+              return numero*factorial(numero-1);
+          }
+     }
 
